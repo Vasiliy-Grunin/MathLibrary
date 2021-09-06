@@ -3,3 +3,10 @@
 ################################################################################
 
 /MathLibrary.Test/bin/Debug/net5.0
+/MathLibrary.Test/obj
+/MathLibraryTest/bin/Debug/net5.0
+/MathLibraryTest/obj
+/MathLibrary/.vs/MathLibrary
+/MathLibrary/bin/Debug/net5.0
+/MathLibrary/obj
+/.vs
