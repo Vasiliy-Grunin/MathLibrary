@@ -31,13 +31,13 @@ namespace MathLibrary
 
         public double GetLength()
         {
-            return GetLength(new Segment(Begin, End));
+            return GetLength(this);
         }
 
         public bool Contains(Vector vetor)
-            => Geometry.IsVectorInSegment(vetor, new Segment(Begin, End));
+            => Geometry.IsVectorInSegment(vetor, this);
 
         public double GetAreaCircle()
-            => Geometry.GetAreaCircle(new Segment(Begin, End));
+            => Geometry.GetAreaCircle(this);
     }
 }

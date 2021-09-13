@@ -16,12 +16,12 @@
         }
 
         public bool Belongs(Segment segment)
-            => Geometry.IsVectorInSegment(new Vector(X, Y), segment);
+            => Geometry.IsVectorInSegment(this, segment);
 
         public double GetLength()
-            => Geometry.GetLength(new Vector(X, Y));
+            => Geometry.GetLength(this);
 
         public Vector Add(Vector add)
-            => Geometry.Add(new Vector(X, Y), add);
+            => Geometry.Add(this, add);
     }
 }
